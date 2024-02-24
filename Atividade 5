@@ -1,1 +1,41 @@
-
+public class ControleEstoque {
+    public static void main(String[] args){
+        
+        String QuantidadeProduto = "40";
+        double PrecoProduto = 76.95;
+        
+        String MarcaProduto;
+        MarcaProduto = "true";
+        
+        String MarcaLaptop;
+        MarcaLaptop = "Mandioca";
+        String MarcaSmarth;
+        MarcaSmarth = "PineApple";
+        String NomeProduto = "Fone de Ouvido Bluetooth";
+        String NomeLaptop = "LapTop da XUXA";
+        String NomeSmarth = "Aifome 15";
+        String QuantidadeLaptop = "167";
+        String QuatidadeSmarhphone = "100";
+        double PrecoSmarth = 1569.45;
+        double PrecoLaptop = 2345.98;
+        
+        
+        System.out.println("Dados do Produto:");
+        System.out.println("Nome:" + NomeProduto);
+        System.out.println("Marca:" + MarcaProduto);
+        System.out.println("Quantidade em estoque:" + QuantidadeProduto);
+        System.out.println("Preco R$:" + PrecoProduto);
+        
+        System.out.println("Dados do Produto:");
+        System.out.println("Nome:" + NomeSmarth);
+        System.out.println("Marca:" + MarcaSmarth);
+        System.out.println("Quantidade em estoque:" + QuantidadeProduto);
+        System.out.println("Preco R$:" + PrecoSmarth);
+        
+        System.out.println("Dados do Produto:");
+        System.out.println("Nome:" + NomeLaptop);
+        System.out.println("Marca:" + MarcaLaptop);
+        System.out.println("Quantidade em estoque:" + QuantidadeLaptop);
+        System.out.println("Preco R$:" + PrecoLaptop);
+    }
+}
