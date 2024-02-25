@@ -1,1 +1,43 @@
+import java.util.Scanner;
+
+public class DadosAluno {
+    public static void main(String[] args) {
+    
+        Scanner scanner = new Scanner(System.in);
+        
+      
+    String nomeDoAluno;
+        int idadeDoAluno;
+    double notaDaProva1;
+    double notaDaProva2;
+        double mediaFinal;
+        
+    
+        System.out.print("Digite o nome do aluno: ");
+        nomeDoAluno = scanner.nextLine();
+        
+        System.out.print("Digite a idade do aluno: ");
+        idadeDoAluno = scanner.nextInt();
+        
+        System.out.print("Nota 1: ");
+        notaDaProva1 = scanner.nextDouble();
+        
+        System.out.print("Nota 2: ");
+        notaDaProva2 = scanner.nextDouble();
+        
+       
+        mediaFinal = (notaDaProva1 + notaDaProva2) / 2;
+        
+    
+        System.out.println("Aluno:");
+        System.out.println("Nome: " + nomeDoAluno);
+        System.out.println("Idade: " + idadeDoAluno);
+        System.out.println("Nota da Prova 1: " + notaDaProva1);
+        System.out.println("Nota da Prova 2: " + notaDaProva2);
+        System.out.println("Media Final: " + mediaFinal);
+        
+    
+        scanner.close();
+    }
+}
 
